@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-buildo",
+  "version": "0.0.1",
+  "description": "buildo's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buildo/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "buildo",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Francesco Cioria <francesco@buildo.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buildo/eslint-config/issues"
+  },
+  "homepage": "https://github.com/buildo/eslint-config",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-plugin-no-copy-paste-default-export": "^0.0.3",
+    "eslint-plugin-react": "^3.14.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
+}
