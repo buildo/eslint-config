@@ -20,7 +20,7 @@ module.exports = {
     // disallow modifying variables that are declared using const
     'no-const-assign': 2,
     // disallow empty statements
-    'no-empty': 2
+    'no-empty': 2,
     // disallow duplicate arguments in functions
     'no-dupe-args': 2,
     // disallow duplicate keys when creating object literals
@@ -34,7 +34,7 @@ module.exports = {
     // disallow declaration of variables that are not used in the code
     "no-unused-vars": [2, { "vars": "local", "args": "after-used" }],
     // disallow use of variables before they are defined
-    'no-use-before-define': 2
+    'no-use-before-define': 2,
     // require let or const instead of var
     'no-var': 2,
     // suggest using of const declaration for variables that are never modified after declared
