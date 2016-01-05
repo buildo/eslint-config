@@ -1,2 +1,2 @@
 # javascript
-buildo's javascript style guide
+buildo's eslint shared config
