@@ -16,29 +16,29 @@ module.exports = {
   "extends": "eslint:recommended",
   "rules": {
     // verify super() callings in constructors
-    'constructor-super': 2,
+    "constructor-super": 2,
     // disallow modifying variables that are declared using const
-    'no-const-assign': 2,
+    "no-const-assign": 2,
     // disallow empty statements
-    'no-empty': 2,
+    "no-empty": 2,
     // disallow duplicate arguments in functions
-    'no-dupe-args': 2,
+    "no-dupe-args": 2,
     // disallow duplicate keys when creating object literals
-    'no-dupe-keys': 2,
+    "no-dupe-keys": 2,
     // disallow to use this/super before super() calling in constructors.
-    'no-this-before-super': 0,
+    "no-this-before-super": 0,
     // disallow use of undeclared variables unless mentioned in a /*global */ block
-    'no-undef': 2,
+    "no-undef": 2,
     // disallow unreachable statements after a return, throw, continue, or break statement
-    'no-unreachable': 2,
+    "no-unreachable": 2,
     // disallow declaration of variables that are not used in the code
     "no-unused-vars": [2, { "vars": "local", "args": "after-used" }],
     // disallow use of variables before they are defined
-    'no-use-before-define': 2,
+    "no-use-before-define": 2,
     // require let or const instead of var
-    'no-var': 2,
+    "no-var": 2,
     // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': 2,
+    "prefer-const": 2,
 
     // Labonline
     "strict": [2, "global"],
