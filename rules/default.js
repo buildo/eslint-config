@@ -20,7 +20,7 @@ module.exports = {
     // disallow modifying variables that are declared using const
     "no-const-assign": 2,
     // disallow to use this/super before super() calling in constructors.
-    "no-this-before-super": 0,
+    "no-this-before-super": 2,
     // disallow use of variables before they are defined
     "no-use-before-define": 2,
     // require let or const instead of var
