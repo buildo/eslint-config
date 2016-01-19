@@ -27,18 +27,17 @@ module.exports = {
     "no-var": 2,
     // suggest using of const declaration for variables that are never modified after declared
     "prefer-const": 2,
+    "no-class-assign": 2,
+    "no-cond-assign": 2,
+    "no-new": 2,
+    "no-param-reassign": 2,
+    "no-return-assign": 2,
+    "prefer-arrow-callback": 2,
+    "operator-assignment": [2, "never"],
+    "no-sequences": 2,
+    "no-plusplus": 2,
 
-    // Labonline
-    "strict": [2, "global"],
-    "quotes": [2, "single"],
-    "object-curly-spacing": [2, "always"],
-    "arrow-spacing": 2,
-    "object-shorthand": 2,
-    "prefer-spread": 2,
-    "prefer-template": 2,
-    "jsx-quotes": [2, "prefer-double"],
-    "no-trailing-spaces": 2,
-
+    // react-specific rules
     "react/jsx-boolean-value": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-uses-react": 2,
