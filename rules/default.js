@@ -15,17 +15,13 @@ module.exports = {
   },
   "extends": "eslint:recommended",
   "rules": {
-    // verify super() callings in constructors
+    // basic rules not included in eslint:recommended
+    // that help us enforce our coding style
     "constructor-super": 2,
-    // disallow modifying variables that are declared using const
     "no-const-assign": 2,
-    // disallow to use this/super before super() calling in constructors.
     "no-this-before-super": 2,
-    // disallow use of variables before they are defined
     "no-use-before-define": 2,
-    // require let or const instead of var
     "no-var": 2,
-    // suggest using of const declaration for variables that are never modified after declared
     "prefer-const": 2,
     "no-class-assign": 2,
     "no-cond-assign": 2,
@@ -55,11 +51,9 @@ module.exports = {
     "react/jsx-indent-props": [2, 2],
     "react/jsx-no-duplicate-props": 2,
 
-    // disallow use of console
+    // things that could be ok in dev but not in prod
     "no-console": 1,
-    // disallow use of constant expressions in conditions
     "no-constant-condition": 1,
-    // disallow use of debugger
     "no-debugger": 1
   }
 }
