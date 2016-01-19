@@ -15,42 +15,25 @@ module.exports = {
   },
   "extends": "eslint:recommended",
   "rules": {
-    // verify super() callings in constructors
-    'constructor-super': 2,
-    // disallow modifying variables that are declared using const
-    'no-const-assign': 2,
-    // disallow empty statements
-    'no-empty': 2,
-    // disallow duplicate arguments in functions
-    'no-dupe-args': 2,
-    // disallow duplicate keys when creating object literals
-    'no-dupe-keys': 2,
-    // disallow to use this/super before super() calling in constructors.
-    'no-this-before-super': 0,
-    // disallow use of undeclared variables unless mentioned in a /*global */ block
-    'no-undef': 2,
-    // disallow unreachable statements after a return, throw, continue, or break statement
-    'no-unreachable': 2,
-    // disallow declaration of variables that are not used in the code
-    "no-unused-vars": [2, { "vars": "local", "args": "after-used" }],
-    // disallow use of variables before they are defined
-    'no-use-before-define': 2,
-    // require let or const instead of var
-    'no-var': 2,
-    // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': 2,
+    // basic rules not included in eslint:recommended
+    // that help us enforce our coding style
+    "constructor-super": 2,
+    "no-const-assign": 2,
+    "no-this-before-super": 2,
+    "no-use-before-define": 2,
+    "no-var": 2,
+    "prefer-const": 2,
+    "no-class-assign": 2,
+    "no-cond-assign": 2,
+    "no-new": 2,
+    "no-param-reassign": 2,
+    "no-return-assign": 2,
+    "prefer-arrow-callback": 2,
+    "operator-assignment": [2, "never"],
+    "no-sequences": 2,
+    "no-plusplus": 2,
 
-    // Labonline
-    "strict": [2, "global"],
-    "quotes": [2, "single"],
-    "object-curly-spacing": [2, "always"],
-    "arrow-spacing": 2,
-    "object-shorthand": 2,
-    "prefer-spread": 2,
-    "prefer-template": 2,
-    "jsx-quotes": [2, "prefer-double"],
-    "no-trailing-spaces": 2,
-
+    // react-specific rules
     "react/jsx-boolean-value": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-uses-react": 2,
@@ -68,11 +51,9 @@ module.exports = {
     "react/jsx-indent-props": [2, 2],
     "react/jsx-no-duplicate-props": 2,
 
-    // disallow use of console
+    // things that could be ok in dev but not in prod
     "no-console": 1,
-    // disallow use of constant expressions in conditions
     "no-constant-condition": 1,
-    // disallow use of debugger
     "no-debugger": 1
   }
 }
