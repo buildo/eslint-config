@@ -66,6 +66,13 @@ module.exports = {
     "react/jsx-curly-spacing": [2, "never"],
     "react/jsx-closing-bracket-location": 2,
     "react/jsx-indent-props": [2, 2],
-    "react/jsx-no-duplicate-props": 2
+    "react/jsx-no-duplicate-props": 2,
+
+    // disallow use of console
+    "no-console": 1,
+    // disallow use of constant expressions in conditions
+    "no-constant-condition": 1,
+    // disallow use of debugger
+    "no-debugger": 1
   }
 }
