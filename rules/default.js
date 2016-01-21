@@ -33,7 +33,12 @@ module.exports = {
     "operator-assignment": [2, "never"],
     "no-sequences": 2,
     "no-plusplus": 2,
-    "eqeqeq": 2,
+    "eqeqeq": 2, // (fixable)
+    "no-unused-vars": 2,
+    "comma-dangle": [2, "never"],
+    "semi": [2, "always"], // (fixable)
+    "no-trailing-spaces": 2, // (fixable)
+    "quotes": [2, "single"], // (fixable)
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
