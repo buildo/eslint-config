@@ -28,7 +28,7 @@
     "eslint": "^1.10.3",
     "eslint-plugin-no-copy-paste-default-export": "^0.0.3",
     "eslint-plugin-react": "^3.14.0",
-    "eslint-plugin-no-loops": "^0.1.0"
+    "eslint-plugin-no-loops": "^0.1.1"
   },
   "peerDependencies": {
     "eslint": ">=1.0.0"
