@@ -39,6 +39,7 @@ module.exports = {
     "semi": [2, "always"], // (fixable)
     "no-trailing-spaces": 2, // (fixable)
     "quotes": [2, "single"], // (fixable)
+    "object-shorthand": [2, "always"],
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
