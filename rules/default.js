@@ -40,6 +40,7 @@ module.exports = {
     "no-trailing-spaces": 2, // (fixable)
     "quotes": [2, "single"], // (fixable)
     "object-shorthand": [2, "always"],
+    "object-curly-spacing": [2, "always"], // (fixable)
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
