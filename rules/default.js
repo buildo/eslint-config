@@ -41,6 +41,7 @@ module.exports = {
     "quotes": [2, "single"], // (fixable)
     "object-shorthand": [2, "always"],
     "object-curly-spacing": [2, "always"], // (fixable)
+    "key-spacing": 2,
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
