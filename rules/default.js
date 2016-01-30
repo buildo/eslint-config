@@ -33,16 +33,16 @@ module.exports = {
     "operator-assignment": [2, "never"],
     "no-sequences": 2,
     "no-plusplus": 2,
-    "eqeqeq": 2, // (fixable)
+    "eqeqeq": 2,
     "no-unused-vars": 2,
     "comma-dangle": [2, "never"],
-    "semi": [2, "always"], // (fixable)
-    "no-trailing-spaces": 2, // (fixable)
-    "quotes": [2, "single"], // (fixable)
+    "semi": [2, "always"],
+    "no-trailing-spaces": 2,
+    "quotes": [2, "single"],
     "object-shorthand": [2, "always"],
-    "object-curly-spacing": [2, "always"], // (fixable)
+    "object-curly-spacing": [2, "always"],
     "key-spacing": 2,
-    "indent": [2, 2, {"SwitchCase": 1}], // (fixable)
+    "indent": [2, 2, {"SwitchCase": 1}],
     "no-new-object": 2,
     "no-array-constructor": 2,
     "quote-props": [2, "as-needed"],
