@@ -42,7 +42,7 @@ module.exports = {
     "object-shorthand": [2, "always"],
     "object-curly-spacing": [2, "always"], // (fixable)
     "key-spacing": 2,
-    "indent": [2, 2, {"SwitchCase": 1}],
+    "indent": [2, 2, {"SwitchCase": 1}], // (fixable)
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
