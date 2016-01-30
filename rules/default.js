@@ -48,6 +48,7 @@ module.exports = {
     "quote-props": [2, "as-needed"],
     "space-after-keywords": 2,
     "wrap-iife": [2, "inside"],
+    "arrow-spacing": 2,
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
