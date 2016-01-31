@@ -5,3 +5,4 @@ A mostly functional approach to JavaScript
 
 * [Types](/guide/01.Types.md)
 * [References](/guide/02.References.md)
+* [Objects](/guide/03.Objects.md)
