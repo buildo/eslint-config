@@ -45,6 +45,7 @@ module.exports = {
     "indent": [2, 2, {"SwitchCase": 1}], // (fixable)
     "no-new-object": 2,
     "no-array-constructor": 2,
+    "quote-props": [2, "as-needed"],
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
