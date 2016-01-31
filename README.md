@@ -24,7 +24,7 @@ If you need to override or turn off rules:
 
 # const buildoJavaScriptStyleGuide = () => {
 
-*A mostrly functional approach to JavaScript*
+*A mostly functional approach to JavaScript*
 
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-buildo.svg)](https://www.npmjs.com/package/eslint-config-buildo)
 
