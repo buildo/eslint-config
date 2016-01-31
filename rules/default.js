@@ -43,6 +43,8 @@ module.exports = {
     "object-curly-spacing": [2, "always"], // (fixable)
     "key-spacing": 2,
     "indent": [2, 2, {"SwitchCase": 1}], // (fixable)
+    "no-new-object": 2,
+    "no-array-constructor": 2,
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
