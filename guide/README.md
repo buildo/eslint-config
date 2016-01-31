@@ -3,5 +3,5 @@ A mostly functional approach to JavaScript
 
 ## Table of Contents
 
-* [Types](/guide/01.Types.md
-* [References](/guide/02.References.md
+* [Types](/guide/01.Types.md)
+* [References](/guide/02.References.md)
