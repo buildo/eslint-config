@@ -1,0 +1,16 @@
+{
+  "gitbook": "2.5.x",
+  "structure": {
+    "summary": "/guide/README.md"
+  },
+  "plugins": ["autocover", "github", "prism", "-highlight", "edit-link"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/buildo/eslint-config-buildo"
+    },
+    "edit-link": {
+      "base": "https://github.com/buildo/eslint-config-buildo/tree/master",
+      "label": "Edit This Page"
+    }
+  }
+}
