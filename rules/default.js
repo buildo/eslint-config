@@ -46,6 +46,7 @@ module.exports = {
     "no-new-object": 2,
     "no-array-constructor": 2,
     "quote-props": [2, "as-needed"],
+    "space-after-keywords": 2,
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
