@@ -50,6 +50,8 @@ module.exports = {
     "wrap-iife": [2, "inside"],
     "arrow-spacing": 2,
     "comma-spacing": 2,
+    "prefer-spread": 2,
+    "prefer-template": 2,
 
     // react-specific rules
     "react/jsx-boolean-value": 2,
