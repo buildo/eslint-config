@@ -53,6 +53,7 @@ module.exports = {
     "prefer-spread": 2,
     "prefer-template": 2,
     "space-infix-ops": 2,
+    "space-before-function-paren": [2, "never"],
 
     // react-specific rules
     "react/display-name": [2, {"acceptTranspilerName": true}],
