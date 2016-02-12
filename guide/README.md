@@ -8,3 +8,4 @@ A mostly functional approach to JavaScript
 3. [Objects](/guide/03.Objects.md)
 4. [Arrays](/guide/04.Arrays.md)
 5. [Destructuring](/guide/05.Destructuring.md)
+6. [Strings](/guide/06.Strings.md)
