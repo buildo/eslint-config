@@ -9,4 +9,4 @@ A mostly functional approach to JavaScript
 4. [Arrays](/guide/04.Arrays.md)
 5. [Destructuring](/guide/05.Destructuring.md)
 6. [Strings](/guide/06.Strings.md)
-7. [Strings](/guide/07.Functions.md)
+7. [Functions](/guide/07.Functions.md)
