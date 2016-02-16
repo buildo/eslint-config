@@ -54,6 +54,7 @@ module.exports = {
     "prefer-template": 2,
     "space-infix-ops": 2,
     "space-before-function-paren": [2, "never"],
+    "space-before-blocks": 2,
 
     // react-specific rules
     "react/display-name": [2, {"acceptTranspilerName": true}],
