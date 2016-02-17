@@ -55,6 +55,7 @@ module.exports = {
     "space-infix-ops": 2,
     "space-before-function-paren": [2, "never"],
     "space-before-blocks": 2,
+    "jsx-quotes": [2, "prefer-single"],
 
     // react-specific rules
     "react/display-name": [2, {"acceptTranspilerName": true}],
