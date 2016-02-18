@@ -18,7 +18,7 @@ module.exports = {
   "rules": {
     // basic rules not included in eslint:recommended
     // that help us enforce our coding style
-    
+
     // Possible Errors
     "no-cond-assign": 2,
     "comma-dangle": [2, "never"],
@@ -30,7 +30,8 @@ module.exports = {
     "no-sequences": 2,
     "eqeqeq": 2,
     "wrap-iife": [2, "inside"],
-    
+    "no-loop-func": 2,
+
     // Stylistic Issues
     "operator-assignment": [2, "never"],
     "no-plusplus": 2,
@@ -66,6 +67,7 @@ module.exports = {
     "arrow-spacing": 2,
     "prefer-spread": 2,
     "prefer-template": 2,
+
 
     // React
     "react/display-name": [2, {"acceptTranspilerName": true}],
