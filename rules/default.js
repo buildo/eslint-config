@@ -18,28 +18,25 @@ module.exports = {
   "rules": {
     // basic rules not included in eslint:recommended
     // that help us enforce our coding style
-    "constructor-super": 2,
-    "no-const-assign": 2,
-    "no-this-before-super": 2,
-    "no-use-before-define": 2,
-    "no-var": 2,
-    "prefer-const": 2,
-    "no-class-assign": 2,
+    
+    // Possible Errors
     "no-cond-assign": 2,
+    "comma-dangle": [2, "never"],
+
+    // Best Practices
     "no-new": 2,
     "no-param-reassign": 2,
     "no-return-assign": 2,
-    "prefer-arrow-callback": 2,
-    "operator-assignment": [2, "never"],
     "no-sequences": 2,
-    "no-plusplus": 2,
     "eqeqeq": 2,
-    "no-unused-vars": 2,
-    "comma-dangle": [2, "never"],
+    "wrap-iife": [2, "inside"],
+    
+    // Stylistic Issues
+    "operator-assignment": [2, "never"],
+    "no-plusplus": 2,
     "semi": [2, "always"],
     "no-trailing-spaces": 2,
     "quotes": [2, "single"],
-    "object-shorthand": [2, "always"],
     "object-curly-spacing": [2, "always"],
     "key-spacing": 2,
     "indent": [2, 2, {"SwitchCase": 1}],
@@ -47,17 +44,30 @@ module.exports = {
     "no-array-constructor": 2,
     "quote-props": [2, "as-needed"],
     "space-after-keywords": 2,
-    "wrap-iife": [2, "inside"],
-    "arrow-spacing": 2,
     "comma-spacing": 2,
-    "prefer-spread": 2,
-    "prefer-template": 2,
     "space-infix-ops": 2,
     "space-before-function-paren": [2, "never"],
     "space-before-blocks": 2,
     "jsx-quotes": [2, "prefer-single"],
 
-    // react-specific rules
+    // Variables
+    "no-unused-vars": 2,
+
+    // ES6
+    "constructor-super": 2,
+    "no-const-assign": 2,
+    "no-this-before-super": 2,
+    "no-use-before-define": 2,
+    "no-var": 2,
+    "prefer-const": 2,
+    "no-class-assign": 2,
+    "prefer-arrow-callback": 2,
+    "object-shorthand": [2, "always"],
+    "arrow-spacing": 2,
+    "prefer-spread": 2,
+    "prefer-template": 2,
+
+    // React
     "react/display-name": [2, {"acceptTranspilerName": true}],
     "react/jsx-boolean-value": 2,
     "react/jsx-closing-bracket-location": 2,
@@ -81,6 +91,7 @@ module.exports = {
     "react/self-closing-comp": 2,
     "react/wrap-multilines": 2,
 
+    // Warnings
     // things that could be ok in dev but not in prod
     "no-console": 1,
     "no-constant-condition": 1,
