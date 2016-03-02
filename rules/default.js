@@ -44,7 +44,7 @@ module.exports = {
     "no-new-object": 2,
     "no-array-constructor": 2,
     "quote-props": [2, "as-needed"],
-    "space-after-keywords": 2,
+    "keyword-spacing": 2,
     "comma-spacing": 2,
     "space-infix-ops": 2,
     "space-before-function-paren": [2, "never"],
