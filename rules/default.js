@@ -22,6 +22,7 @@ module.exports = {
     // Possible Errors
     "no-cond-assign": 2,
     "comma-dangle": [2, "never"],
+    "no-extra-parens": 2,
 
     // Best Practices
     "no-new": 2,
