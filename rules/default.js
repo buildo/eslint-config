@@ -32,6 +32,7 @@ module.exports = {
     "eqeqeq": 2,
     "wrap-iife": [2, "inside"],
     "no-loop-func": 2,
+    "no-loops/no-loops": 2,
 
     // Stylistic Issues
     "operator-assignment": [2, "never"],
