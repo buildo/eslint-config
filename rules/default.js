@@ -23,6 +23,7 @@ module.exports = {
     "no-cond-assign": 2,
     "comma-dangle": [2, "never"],
     "no-extra-parens": 2,
+    "no-copy-paste-default-export/default": 2,
 
     // Best Practices
     "no-new": 2,
@@ -32,6 +33,7 @@ module.exports = {
     "eqeqeq": 2,
     "wrap-iife": [2, "inside"],
     "no-loop-func": 2,
+    "no-loops/no-loops": 2,
 
     // Stylistic Issues
     "operator-assignment": [2, "never"],
