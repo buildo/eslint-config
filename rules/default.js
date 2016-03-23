@@ -61,7 +61,7 @@ module.exports = {
     "constructor-super": 2,
     "no-const-assign": 2,
     "no-this-before-super": 2,
-    "no-use-before-define": 0, // TODO(gio): enable when this is fixed https://github.com/babel/babel-eslint/issues/249
+    "no-use-before-define": 2,
     "no-var": 2,
     "prefer-const": 2,
     "no-class-assign": 2,
