@@ -55,6 +55,7 @@ module.exports = {
 
     // Variables
     "no-unused-vars": 2,
+    "no-restricted-globals": [2, "find"],
 
     // ES6
     "constructor-super": 2,
