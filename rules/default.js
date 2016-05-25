@@ -36,6 +36,7 @@ module.exports = {
 
     // Stylistic Issues
     "operator-assignment": [2, "never"],
+    "max-len": ["error", 100],
     "no-plusplus": 2,
     "semi": [2, "always"],
     "no-trailing-spaces": 2,
