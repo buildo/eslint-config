@@ -32,6 +32,8 @@ module.exports = {
     "eqeqeq": 2,
     "wrap-iife": [2, "inside"],
     "no-loop-func": 2,
+    "no-extend-native": 2,
+    "no-native-reassign": 2,
     "no-loops/no-loops": 2,
 
     // Stylistic Issues
