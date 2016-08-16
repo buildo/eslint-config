@@ -34,6 +34,7 @@ module.exports = {
     "no-loop-func": 2,
     "no-extend-native": 2,
     "no-native-reassign": 2,
+    "dot-location": [2, "property"],
     "no-loops/no-loops": 2,
 
     // Stylistic Issues
