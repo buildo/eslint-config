@@ -27,7 +27,8 @@
   "dependencies": {
     "eslint-plugin-no-copy-paste-default-export": "^0.0.3",
     "eslint-plugin-react": "^4.1.0",
-    "eslint-plugin-no-loops": "^0.1.1"
+    "eslint-plugin-no-loops": "^0.1.1",
+    "eslint-plugin-promise": "^3.3.0"
   },
   "peerDependencies": {
     "eslint": ">= 2.4.0 < 4"

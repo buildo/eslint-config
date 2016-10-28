@@ -8,7 +8,8 @@ module.exports = {
   "plugins": [
     "react",
     "no-copy-paste-default-export",
-    "no-loops"
+    "no-loops",
+    "promise"
   ],
   "ecmaFeatures": {
     "jsx": true,
@@ -76,6 +77,12 @@ module.exports = {
     "prefer-spread": 2,
     "prefer-template": 2,
 
+    // Promise
+    "promise/always-return": 2,
+    "promise/no-return-wrap": 2,
+    "promise/param-names": 2,
+    "promise/catch-or-return": 2,
+    "promise/no-native": 0,
 
     // React
     "react/display-name": [2, {"ignoreTranspilerName": false}],
