@@ -15,6 +15,11 @@ module.exports = {
     "modules": true
   },
   "extends": "eslint:recommended",
+  "settings": {
+    "react": {
+      "version": "0.14.0" // React version, default to the latest React stable release
+    }
+  },
   "rules": {
     // basic rules not included in eslint:recommended
     // that help us enforce our coding style
@@ -90,7 +95,7 @@ module.exports = {
     "react/jsx-pascal-case": 2,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
-    "react/no-deprecated": [2, {"react": "0.13.0"}],
+    "react/no-deprecated": 2,
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-direct-mutation-state": 2,
