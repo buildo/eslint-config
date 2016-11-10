@@ -17,7 +17,7 @@ module.exports = {
   extends: 'eslint:recommended',
   settings: {
     react: {
-      version: '0.14.0' // React version, default to the latest React stable release
+      version: '0.14.0'
     }
   },
   rules: {
