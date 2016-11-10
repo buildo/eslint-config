@@ -104,7 +104,7 @@ module.exports = {
     "react/prefer-es6-class": 2,
     "react/react-in-jsx-scope": 2,
     "react/self-closing-comp": 2,
-    "react/wrap-multilines": 2,
+    "react/jsx-wrap-multilines": 2,
 
     // Warnings
     // things that could be ok in dev but not in prod
