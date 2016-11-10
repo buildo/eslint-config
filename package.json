@@ -4,7 +4,7 @@
   "description": "buildo's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint rules --config rules/default.js"
   },
   "repository": {
     "type": "git",
