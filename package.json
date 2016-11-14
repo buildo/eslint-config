@@ -30,6 +30,6 @@
     "eslint-plugin-no-loops": "^0.1.1"
   },
   "peerDependencies": {
-    "eslint": ">= 2.4.0 < 4"
+    "eslint": ">=3.10.1"
   }
 }
