@@ -4,7 +4,7 @@
   "description": "buildo's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint rules --config rules/default.js"
   },
   "repository": {
     "type": "git",
@@ -26,10 +26,14 @@
   "homepage": "https://github.com/buildo/eslint-config",
   "dependencies": {
     "eslint-plugin-no-copy-paste-default-export": "^0.0.3",
-    "eslint-plugin-react": "^4.1.0",
-    "eslint-plugin-no-loops": "^0.1.1"
+    "eslint-plugin-no-loops": "^0.1.1",
+    "eslint-plugin-react": "^6.6.0"
   },
   "peerDependencies": {
     "eslint": ">= 2.4.0 < 4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1"
   }
 }
