@@ -41,6 +41,7 @@ module.exports = {
     'no-native-reassign': 2,
     'dot-location': [2, 'property'],
     'no-loops/no-loops': 2,
+    curly: 2,
 
     // Stylistic Issues
     'operator-assignment': [2, 'never'],
