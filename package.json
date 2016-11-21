@@ -4,6 +4,7 @@
   "description": "buildo's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "lint": "eslint rules --config rules/default.js"
   },
   "repository": {
@@ -34,6 +35,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.1.0",
-    "eslint": "^3.9.1"
+    "eslint": "^3.9.1",
+    "jest": "^17.0.3"
   }
 }
