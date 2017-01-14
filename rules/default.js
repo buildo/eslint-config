@@ -63,6 +63,7 @@ module.exports = {
     'space-before-blocks': 2,
     'jsx-quotes': [2, 'prefer-single'],
     'dot-notation': 2,
+    'no-multiple-empty-lines': 2,
 
     // Variables
     'no-unused-vars': 2,
