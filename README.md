@@ -41,3 +41,78 @@ npm i -g babel-eslint\
          eslint-plugin-no-loops\
          eslint-plugin-react
 ```
+
+## Proposing a new rule
+If you are proposing a new rule, you can use [`linto`](http://github.com/buildo/linto) to pre-check whether it will cause new errors or warnings in the existing projects.
+
+First, get the latest version of linto:
+
+```
+yarn global add linto
+# or if you have time
+npm install -g linto
+```
+
+Then you can use the configuration you'll find in this repo as a base.
+
+#### Example
+Suppose you want to propose the addition of `guard-for-in`. Edit the `linto-config.json` by adding the rule under test to the `eslintConfig` section:
+
+```js
+{
+  "repos": [
+    // ...
+  ],
+  "eslintConfig": {
+    // ...,
+    "rules": {
+      "guard-for-in": 2
+    }
+  }
+}
+```
+
+Then run linto
+
+```sh
+linto --config lint-config.json
+```
+
+This will generate a report that you can copy-paste on a GitHub issue.
+
+> #### NOTE
+> `linto` purposely ignores the project-specific configurations, so you may run into errors not directly related to the rule under test. If that's the case, simply turn off the offending rules in the configuration, to get more precise results. For instance, if you get a lot of `max-len` errors, just do:
+
+> ```js
+{
+  "repos": [
+    // ...
+  ],
+  "eslintConfig": {
+    // ...,
+    "rules": {
+      "max-len": 0,
+      "guard-for-in": 2
+    }
+  }
+}
+```
+
+## Proposing a new plugin
+Similarly to rules, you can test new plugins (and their rules). If you add any entries to the `plugins` section of the ESLint configuration, they will get installed and made available while `linto` runs.
+
+#### Example
+Suppose you want to propose the addition of `eslint-plugin-import`. Proceed like before, using a configuration like:
+
+```js
+  "repos": [
+    // ...
+  ],
+  "eslintConfig": {
+    // ...,
+    "plugins": ["import"],
+    "rules": {
+      "import/named": 2
+    }
+  }
+```
