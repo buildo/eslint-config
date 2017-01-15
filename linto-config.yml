@@ -1,0 +1,76 @@
+repos:
+  # projects
+  - owner: buildo
+    name: aliniq
+    host: github.omnilab.our.buildo.io
+    paths:
+      - qia/web/src
+  - owner: buildo
+    name: web-shared
+    host: github.omnilab.our.buildo.io
+    eslintConfig:
+      rules:
+        react/jsx-curly-spacing: 0
+        semi: 0
+  - owner: buildo
+    name: lexdoit
+    eslintConfig:
+      globals:
+        "$": true
+        braintree: true
+        heap: true
+        Bugsnag: true
+        sendinblue: true
+      rules:
+        react/jsx-indent: 0
+        react/self-closing-comp: 0
+      ignorePattern:
+        - web/src/app/semantic.js
+        - web/src/app/assets
+  - owner: buildo
+    name: ipercron
+  - owner: buildo
+    name: bobafett
+
+  # react-related-libraries
+  - owner: buildo
+    name: avenger
+    eslintConfig:
+      rules:
+        semi: 0
+  - owner: buildo
+    name: react-components
+  - owner: buildo
+    name: rc-datepicker
+  - owner: buildo
+    name: react-cookie-banner
+  - owner: buildo
+    name: react-autosize-textarea
+  - owner: buildo
+    name: react-input-link
+  - owner: buildo
+    name: react-flexview
+    eslintConfig:
+      rules:
+        react/jsx-curly-spacing: 0
+  - owner: buildo
+    name: react-placeholder
+  - owner: buildo
+    name: local-date
+  - owner: buildo
+    name: formo
+
+  # internal tools
+  - owner: buildo
+    name: hophop
+  - owner: buildo
+    name: nemobot
+  - owner: buildo
+    name: prisma
+  - owner: buildo
+    name: pledge
+
+eslintConfig:
+  extends: buildo
+  rules:
+    max-len: 0

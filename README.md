@@ -56,26 +56,22 @@ npm install -g linto
 Then you can use the configuration you'll find in this repo as a base.
 
 #### Example
-Suppose you want to propose the addition of `guard-for-in`. Edit the `linto-config.json` by adding the rule under test to the `eslintConfig` section:
+Suppose you want to propose the addition of `guard-for-in`. Edit the `linto-config.yml` by adding the rule under test to the `eslintConfig` section:
 
-```js
-{
-  "repos": [
-    // ...
-  ],
-  "eslintConfig": {
-    // ...,
-    "rules": {
-      "guard-for-in": 2
-    }
-  }
+```yaml
+repos:
+  // ...
+eslintConfig:
+  // ...
+  rules:
+    guard-for-in: 2
 }
 ```
 
 Then run linto
 
 ```sh
-linto --config lint-config.json
+linto run -c linto-config.yml
 ```
 
 This will generate a report that you can copy-paste on a GitHub issue.
@@ -83,19 +79,31 @@ This will generate a report that you can copy-paste on a GitHub issue.
 > #### NOTE
 > `linto` purposely ignores the project-specific configurations, so you may run into errors not directly related to the rule under test. If that's the case, simply turn off the offending rules in the configuration, to get more precise results. For instance, if you get a lot of `max-len` errors, just do:
 
-> ```js
-{
-  "repos": [
-    // ...
-  ],
-  "eslintConfig": {
-    // ...,
-    "rules": {
-      "max-len": 0,
-      "guard-for-in": 2
-    }
-  }
+```yaml
+repos:
+  // ...
+eslintConfig:
+  // ...
+  rules:
+    max-len: 0
+    guard-for-in: 2
 }
+```
+
+You can also do the same for a single repo. For example, this turns off the `semi` rule only for the 'buildo/foo' repo:
+
+```yaml
+repos:
+  - owner: buildo
+    name: foo
+    eslintConfig:
+      rules:
+        semi: 0
+  // ...
+eslintConfig:
+  // ...
+  rules:
+    guard-for-in: 2
 ```
 
 ## Proposing a new plugin
@@ -104,15 +112,13 @@ Similarly to rules, you can test new plugins (and their rules). If you add any e
 #### Example
 Suppose you want to propose the addition of `eslint-plugin-import`. Proceed like before, using a configuration like:
 
-```js
-  "repos": [
-    // ...
-  ],
-  "eslintConfig": {
-    // ...,
-    "plugins": ["import"],
-    "rules": {
-      "import/named": 2
-    }
-  }
+```yaml
+repos:
+  // ...
+eslintConfig:
+  // ...,
+  plugins:
+    - import
+  rules:
+    import/named: 2
 ```
