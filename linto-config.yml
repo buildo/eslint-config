@@ -31,6 +31,10 @@ repos:
     name: ipercron
   - owner: buildo
     name: bobafett
+  - owner: contactlab
+    name: contacthub-sdk-browser
+  - owner: contactlab
+    name: contacthub-sdk-nodejs
 
   # react-related-libraries
   - owner: buildo
