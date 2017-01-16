@@ -87,7 +87,6 @@ eslintConfig:
   rules:
     max-len: 0
     guard-for-in: 2
-}
 ```
 
 You can also do the same for a single repo. For example, this turns off the `semi` rule only for the 'buildo/foo' repo:
