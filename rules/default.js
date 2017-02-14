@@ -52,6 +52,7 @@ module.exports = {
     quotes: [2, 'single'],
     'object-curly-spacing': [2, 'always'],
     'key-spacing': 2,
+    'array-bracket-spacing': 2,
     indent: [2, 2, { SwitchCase: 1 }],
     'no-new-object': 2,
     'no-array-constructor': 2,
