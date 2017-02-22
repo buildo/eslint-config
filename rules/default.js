@@ -66,7 +66,7 @@ module.exports = {
     'dot-notation': 2,
     'no-multiple-empty-lines': 2,
     'spaced-comment': 2,
-    'no-multi-spaces': 2
+    'no-multi-spaces': 2,
 
     // Variables
     'no-unused-vars': 2,
