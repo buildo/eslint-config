@@ -28,6 +28,11 @@ repos:
     name: contacthub-sdk-browser
   - owner: contactlab
     name: contacthub-sdk-nodejs
+  - owner: buildo
+    name: gdsm
+    paths:
+      - web/src
+      - backoffice/src
 
   # react-related-libraries
   - owner: buildo
