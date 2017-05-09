@@ -6,13 +6,6 @@ repos:
     paths:
       - qia/web/src
   - owner: buildo
-    name: web-shared
-    host: github.omnilab.our.buildo.io
-    eslintConfig:
-      rules:
-        react/jsx-curly-spacing: 0
-        semi: 0
-  - owner: buildo
     name: lexdoit
     eslintConfig:
       globals:
