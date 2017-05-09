@@ -110,6 +110,7 @@ module.exports = {
     'react/react-in-jsx-scope': 2,
     'react/self-closing-comp': 2,
     'react/jsx-wrap-multilines': 2,
+    'react/jsx-tag-spacing': [2, { beforeSelfClosing: 'always' }],
 
     // Warnings
     // things that could be ok in dev but not in prod
