@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint rules --config rules/default.js"
+    "lint": "eslint rules --config rules/default.js",
+    "release-version": "smooth-release"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,6 @@
     "babel-eslint": "^7.1.0",
     "eslint": "^3.9.1",
     "jest": "^19.0.0",
-    "smooth-release": "^8.0.3"
+    "smooth-release": "^8.0.4"
   }
 }
