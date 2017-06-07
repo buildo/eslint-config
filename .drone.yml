@@ -16,4 +16,6 @@ publish:
     image: node:8
     commands:
       - echo "//registry.npmjs.org/:_authToken=$$NPM_TOKEN" >> ~/.npmrc
+      - git config --global user.name "nemobot";
+      - git config --global user.email "our-bots@buildo.io";
       - npm run release-version -- --token=$$GITHUB_TOKEN
