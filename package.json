@@ -3,6 +3,10 @@
   "version": "0.2.0",
   "description": "buildo's ESLint config, following our styleguide",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "rules"
+  ],
   "scripts": {
     "test": "jest",
     "lint": "eslint rules --config rules/default.js",
