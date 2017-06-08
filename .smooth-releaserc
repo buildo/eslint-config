@@ -1,0 +1,13 @@
+{
+  publish: {
+    npmVersionConfirmation: false
+  },
+  tasks: {
+    validations: true,
+    'npm-publish': true,
+    'npm-version': true,
+    'gh-release': true,
+    'gh-release-all': false,
+    changelog: true
+  }
+}

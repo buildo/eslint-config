@@ -1,0 +1,21 @@
+build:
+  install:
+    image: node:8
+    commands:
+      - npm install
+  lint:
+    image: node:8
+    commands:
+      - npm run lint
+
+publish:
+  npm:
+    when:
+      branch:
+        - master
+    image: node:8
+    commands:
+      - echo "//registry.npmjs.org/:_authToken=$$NPM_TOKEN" >> ~/.npmrc
+      - git config --global user.name "nemobot";
+      - git config --global user.email "our-bots@buildo.io";
+      - npm run release-version -- --token=$$GITHUB_TOKEN
