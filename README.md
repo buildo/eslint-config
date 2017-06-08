@@ -1,5 +1,8 @@
 # eslint-config-buildo
-buildo's eslint shared config
+buildo's shared eslint config
+
+## Descriptive style guide
+https://buildo.gitbooks.io/js-style-guide/content/guide/
 
 ## Usage
 In your project's `.eslintrc`
