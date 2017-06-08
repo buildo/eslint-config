@@ -14,7 +14,9 @@ build:
       - echo "//registry.npmjs.org/:_authToken=$$NPM_TOKEN" >> ~/.npmrc
       - git config --global user.name "nemobot";
       - git config --global user.email "our-bots@buildo.io";
-      - node_modules/smooth-release/smooth-release --token=$$GITHUB_TOKEN
+      - mkdir -p ~/.smooth-release
+      - echo $$GITHUB_TOKEN > ~/.smooth-release/gh_token
+      - npm run release-version
     when:
       branch:
         - master
