@@ -74,5 +74,3 @@ repos:
 
 eslintConfig:
   extends: buildo
-  rules:
-    max-len: 0
