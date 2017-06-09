@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-buildo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "buildo's ESLint config, following our styleguide",
   "main": "index.js",
   "files": [
