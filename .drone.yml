@@ -16,8 +16,8 @@ build:
       - git config user.email "our-bots@buildo.io";
       - git branch --set-upstream-to origin/master
       - mkdir -p ~/.smooth-release
-      - echo $$GITHUB_TOKEN > ~/.smooth-release/gh_token
-      - DEBUG=* node node_modules/smooth-release
+      - echo -n $$GITHUB_TOKEN > ~/.smooth-release/gh_token
+      - npm run release-version
     when:
       branch:
         - master
