@@ -12,8 +12,9 @@ build:
     image: node:8
     commands:
       - echo "//registry.npmjs.org/:_authToken=$$NPM_TOKEN" >> ~/.npmrc
-      - git config user.name "nemobot";
-      - git config user.email "our-bots@buildo.io";
+      - git config --global user.name "nemobot";
+      - git config --global user.email "our-bots@buildo.io";
+      - git config --global push.default simple
       - git branch --set-upstream-to origin/master
       - mkdir -p ~/.smooth-release
       - echo -n $$GITHUB_TOKEN > ~/.smooth-release/gh_token
