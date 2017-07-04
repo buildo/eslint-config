@@ -1,7 +1,7 @@
 repos:
   # projects
   - owner: buildo
-    name: aliniq
+    name: alinity-pro
     host: github.omnilab.our.buildo.io
     paths:
       - qia/web/src
