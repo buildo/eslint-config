@@ -2,20 +2,11 @@
 
 
 
-## [v0.2.1](https://github.com/buildo/eslint-config/tree/v0.2.1) (2017-06-09)
-[Full Changelog](https://github.com/buildo/eslint-config/compare/v0.3.0...v0.2.1)
-
-#### New features:
-
-- Enfore space before '/>' in self-closing tags [#113](https://github.com/buildo/eslint-config/issues/113)
-- Disallow Use of `undefined` Variable (no-undefined) [#111](https://github.com/buildo/eslint-config/issues/111)
-- pin eslint-plugin-react to <6.10.1 [#108](https://github.com/buildo/eslint-config/issues/108)
-- Add gdsm to linto config [#102](https://github.com/buildo/eslint-config/issues/102)
-- Add spaced-comment and no-multi-spaces [#101](https://github.com/buildo/eslint-config/issues/101)
-- Add array-bracket-spacing [#98](https://github.com/buildo/eslint-config/issues/98)
+## [v0.2.2](https://github.com/buildo/eslint-config/tree/v0.2.2) (2017-07-24)
+[Full Changelog](https://github.com/buildo/eslint-config/compare/v0.3.0...v0.2.2)
 
 ## [v0.3.0](https://github.com/buildo/eslint-config/tree/v0.3.0) (2017-01-16)
-[Full Changelog](https://github.com/buildo/eslint-config/compare/v0.2.0...v0.3.0)
+[Full Changelog](https://github.com/buildo/eslint-config/compare/v0.2.1...v0.3.0)
 
 #### New features:
 
@@ -28,6 +19,18 @@
 #### Breaking:
 
 - upgrade eslint-plugin-react [#82](https://github.com/buildo/eslint-config/issues/82)
+
+## [v0.2.1](https://github.com/buildo/eslint-config/tree/v0.2.1) (2017-06-09)
+[Full Changelog](https://github.com/buildo/eslint-config/compare/v0.2.0...v0.2.1)
+
+#### New features:
+
+- Enfore space before '/>' in self-closing tags [#113](https://github.com/buildo/eslint-config/issues/113)
+- Disallow Use of `undefined` Variable (no-undefined) [#111](https://github.com/buildo/eslint-config/issues/111)
+- pin eslint-plugin-react to <6.10.1 [#108](https://github.com/buildo/eslint-config/issues/108)
+- Add gdsm to linto config [#102](https://github.com/buildo/eslint-config/issues/102)
+- Add spaced-comment and no-multi-spaces [#101](https://github.com/buildo/eslint-config/issues/101)
+- Add array-bracket-spacing [#98](https://github.com/buildo/eslint-config/issues/98)
 
 ## [v0.2.0](https://github.com/buildo/eslint-config/tree/v0.2.0) (2016-11-10)
 [Full Changelog](https://github.com/buildo/eslint-config/compare/v0.1.0...v0.2.0)
