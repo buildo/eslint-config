@@ -10,10 +10,6 @@ module.exports = {
     'no-copy-paste-default-export',
     'no-loops'
   ],
-  ecmaFeatures: {
-    jsx: true,
-    modules: true
-  },
   extends: 'eslint:recommended',
   settings: {
     react: {
