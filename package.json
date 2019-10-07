@@ -33,15 +33,15 @@
   "dependencies": {
     "eslint-plugin-no-copy-paste-default-export": "^0.0.3",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-react": "^6.6.0"
+    "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
     "eslint": ">= 2.4.0 < 4"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.0",
-    "eslint": "^3.9.1",
-    "jest": "^19.0.0",
+    "eslint": "^4.2.0",
+    "jest": "^20.0.4",
     "smooth-release": "^8.0.4"
   }
 }

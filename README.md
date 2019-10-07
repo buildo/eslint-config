@@ -1,4 +1,6 @@
 # eslint-config-buildo
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/buildo/eslint-config.svg)](https://greenkeeper.io/)
 buildo's eslint shared config
 
 ## Usage
